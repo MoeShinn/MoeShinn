@@ -12,7 +12,7 @@
 
 [![Website](https://img.shields.io/badge/Blog-moeshinn.github.io-63B3ED?style=for-the-badge&logo=githubpages&logoColor=white)](https://moeshinn.github.io)
 [![YouTube](https://img.shields.io/badge/YouTube-Moe%20Shinn-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCoZR9unQFHLfqoOQ22lPcGA)
-[![Discord](https://img.shields.io/badge/Discord-moeshinnch-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/moeshinnch)
+[![Discord](https://img.shields.io/badge/Discord-moeshinnch-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/1527677373099675888)
 [![Telegram](https://img.shields.io/badge/Telegram-MoeShinnCh-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MoeShinnCh)
 
 </div>
@@ -27,26 +27,26 @@ Ngoài streaming, mình thích mày mò làm tool và plugin nhỏ, đặc biệ
 
 - 🎮 Thích: game chill, Minecraft, game gacha, freetalk
 - 🍉 Mê dưa hấu
-- 🛠️ Đang làm: tool quản lý server Minecraft và công cụ dịch ngôn ngữ cho nó
+- 🛠️ Đang làm: app quản lí server Minecraft (My-Server-Manager) và công cụ dịch ngôn ngữ cho nó
 - 📝 Viết blog hướng dẫn: rig model PNGtuber, tối ưu OBS cho máy yếu, tối ưu Minecraft
 
 ## 🛠️ Dự án & sản phẩm
 
 | Dự án | Mô tả |
 |---|---|
-| 🎵 **Music Box** | Plugin phát nhạc ngay trong server Minecraft |
-| 🖥️ **My Server Manager** | App quản lý server Minecraft, hỗ trợ nhiều ngôn ngữ |
-| 🖼️ **Picture Lite** | Tool xử lý ảnh nhẹ cho HSSV ngành CNTT |
-| 🎭 **Ezy Tuber / Ezy Maker** | Hướng dẫn và model PNGtuber build sẵn |
+| 🖥️ [**My-Server-Manager**](https://github.com/MoeShinn/My-Server-Manager) | Ứng dụng desktop tạo và quản lí nhiều server Minecraft Java: tự tải jar và Java, console realtime, plugin/mod Modrinth, quản lí tệp, playit.gg. Không tài khoản, không thu thập dữ liệu |
+| 🖼️ [**Picture-Lite**](https://github.com/MoeShinn/Picture-Lite) | Phần mềm nén ảnh đơn/hàng loạt, hỗ trợ nén và lưu ảnh cho lập trình viên website |
+| ⚡ [**Tool-Automation-See-through-Upscaler**](https://github.com/MoeShinn/Tool-Automation-See-through-Upscaler) | Tool GUI tự động tách layer see-through và upscale ảnh anime bằng RealESRGAN chạy local, không cần gõ lệnh |
+| 🎬 [**LightPlayer**](https://github.com/MoeShinn/LightPlayer) | Trình phát video nhẹ chạy bằng HTML |
 
-👉 Xem đầy đủ ở [cửa hàng](https://moeshinn.github.io/product) và [bài đăng](https://moeshinn.github.io/post).
+👉 Xem thêm các repo khác ở [tab Repositories](https://github.com/MoeShinn?tab=repositories), [cửa hàng](https://moeshinn.github.io/product) và [bài đăng](https://moeshinn.github.io/post).
 
 ## 💻 Công nghệ
 
 <div align="center">
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
