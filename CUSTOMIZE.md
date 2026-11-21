@@ -4,20 +4,26 @@
 
 Đặt `README.md` và **toàn bộ thư mục `assets/`** ở gốc repo public `MoeShinn/MoeShinn`. README dùng đường dẫn tương đối, upload riêng README sẽ mất hình.
 
-## Thêm avatar và ảnh nền (khuyên dùng)
+Thư mục `art/` và `scripts/` chỉ để tạo lại SVG, **không bắt buộc upload** (ảnh đã được nhúng sẵn trong các SVG).
 
-Hiện avatar là chữ "M" và nền là gradient vẽ sẵn. Để dùng ảnh của bạn:
+## Đổi ảnh / logo
 
-1. Chép avatar vào `assets/avatar.jpg` (hoặc `.png`, `.webp`), nên là ảnh vuông.
-2. (Tuỳ chọn) chép ảnh nền vào `assets/background.jpg` (hoặc `.png`, `.webp`), nên ngang, khoảng 1920px.
-3. Chạy `node scripts/build-assets.mjs` để tạo lại SVG. Ảnh lớn sẽ làm `hero.svg` nặng, nên nén ảnh (ví dụ bằng Picture-Lite) xuống dưới ~300 KB.
+Ảnh nguồn nằm trong `art/` (định dạng WebP cho nhẹ):
 
-Chỉ dùng ảnh bạn có quyền sử dụng.
+| File | Dùng cho | Gợi ý |
+| --- | --- | --- |
+| `avatar.webp` | Avatar trong banner | Vuông, ~440 px |
+| `background.webp` / `background-mobile.webp` | Nền banner (máy tính / điện thoại) | Ngang ~1600 px / gần vuông ~780 px, phần trái tối để đè chữ |
+| `logo-msm/pl/lp.webp` | Logo thẻ dự án | Vuông, 128 px |
+| `logo-ezy/mc.webp` | Thẻ công nghệ Ezy Tuber / Minecraft | Vuông, 128 px |
+| `icons.json` | Icon Python, TS, JS, HTML, YouTube, Discord, Telegram | Lấy từ simple-icons |
+
+Thay file rồi chạy `node scripts/build-assets.mjs`. Giữ mỗi SVG banner dưới ~300 KB (nén ảnh bằng Picture-Lite nếu cần).
 
 ## Sửa nội dung và màu
 
 - Lời giới thiệu, link, liên hệ: sửa trong `README.md`.
-- Chữ trong banner, terminal, thẻ công nghệ, thẻ dự án, màu (biến `C`): sửa trong `scripts/build-assets.mjs`, rồi chạy lại `node scripts/build-assets.mjs`.
-- Thêm dự án: thêm một mục vào mảng `projects` trong script, chạy lại, rồi thêm khối `<a><picture>…` tương ứng vào README.
+- Chữ trong banner, terminal, thẻ công nghệ, thẻ dự án, badge liên hệ, màu (biến `C`): sửa trong `scripts/build-assets.mjs`, rồi chạy lại.
+- Thêm dự án: thêm một mục vào mảng `projects` (dùng `logo:'tên'` nếu có `art/logo-tên.webp`, hoặc `emblem:true` để dùng biểu trưng vẽ bằng code), chạy lại, rồi thêm khối `<a><picture>…` tương ứng vào README.
 
 SVG có bản riêng cho màn hình nhỏ. Hiệu ứng dùng SVG/CSS, không cần JavaScript, và tự tắt khi thiết bị bật giảm chuyển động. Không phụ thuộc dịch vụ ngoài.

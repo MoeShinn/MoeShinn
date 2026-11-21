@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="56" viewBox="0 0 220 56" role="img" aria-labelledby="title"><title id="title">TELEGRAM — @MoeShinnCh</title><style>
+  text{font-family:Inter,'Segoe UI',Arial,sans-serif} .mono{font-family:'Cascadia Code','SFMono-Regular',Consolas,monospace}
+  .pulse{animation:pulse 3s ease-in-out infinite} .cursor{animation:blink 1.2s steps(1) infinite}
+  .float{animation:float 9s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}} @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+  @media(prefers-reduced-motion:reduce){*{animation:none!important} .typing{clip-path:none!important}}
+</style><defs></defs><rect x=".5" y=".5" width="219" height="55" rx="16" fill="#0c1a2e" stroke="#3DB8F0" stroke-opacity=".5"/>
+   <rect x="14" y="10" width="36" height="36" rx="10" fill="#3DB8F0" fill-opacity=".12"/>
+   <path transform="translate(20 16)" d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" fill="#3DB8F0"/>
+   <text x="62" y="25" font-size="10" fill="#9bb3d0" class="mono" letter-spacing="1.4">TELEGRAM</text><text x="62" y="43" font-size="15" fill="#eaf4ff" font-weight="600">@MoeShinnCh</text></svg>

@@ -122,9 +122,9 @@ Ngoài streaming, mình thích mày mò làm tool và plugin nhỏ, đặc biệ
 
 <br><br>
 
-[![YouTube](https://img.shields.io/badge/YouTube-Moe%20Shinn-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCoZR9unQFHLfqoOQ22lPcGA)
-[![Discord](https://img.shields.io/badge/Discord-moeshinnch-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/1527677373099675888)
-[![Telegram](https://img.shields.io/badge/Telegram-MoeShinnCh-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MoeShinnCh)
+<a href="https://www.youtube.com/channel/UCoZR9unQFHLfqoOQ22lPcGA"><img src="./assets/social-youtube.svg" width="200" alt="YouTube — Moe Shinn"></a>
+<a href="https://discord.com/users/1527677373099675888"><img src="./assets/social-discord.svg" width="200" alt="Discord — moeshinnch"></a>
+<a href="https://t.me/MoeShinnCh"><img src="./assets/social-telegram.svg" width="200" alt="Telegram — MoeShinnCh"></a>
 
 </div>
 

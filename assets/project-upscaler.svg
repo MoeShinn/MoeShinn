@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="164" viewBox="0 0 1200 164" role="img" aria-labelledby="title"><title id="title">See-through Upscaler — Tự tách layer see-through và upscale ảnh anime, chạy local.</title><style>
+  text{font-family:Inter,'Segoe UI',Arial,sans-serif} .mono{font-family:'Cascadia Code','SFMono-Regular',Consolas,monospace}
+  .pulse{animation:pulse 3s ease-in-out infinite} .cursor{animation:blink 1.2s steps(1) infinite}
+  .float{animation:float 9s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}} @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+  @media(prefers-reduced-motion:reduce){*{animation:none!important} .typing{clip-path:none!important}}
+</style><defs></defs><rect x=".5" y=".5" width="1199" height="163" rx="18" fill="#0c1a2e" stroke="#27405f"/>
+    <rect x="1" y="27" width="3" height="110" rx="1.5" fill="#ff8fa3"/>
+    <text x="119" y="31" font-size="11" fill="#ff8fa3" class="mono" letter-spacing="1.7">03 / AUTOMATION</text>
+    <text x="119" y="72" font-size="32" fill="#eaf4ff" font-weight="700" letter-spacing="-.5">See-through Upscaler</text>
+    <text x="119" y="107" font-size="20" fill="#9bb3d0" >Tự tách layer see-through và upscale ảnh anime, chạy local.</text>
+    <text x="119" y="141" font-size="11" fill="#ff8fa3" class="mono" letter-spacing="1.2">REALESRGAN / LOCAL GUI</text>
+    <text x="1173" y="89" font-size="30" fill="#ff8fa3" text-anchor="end">↗</text><g transform="translate(28 50) scale(1)"><rect x=".5" y=".5" width="63" height="63" rx="18" fill="#ff8fa3" fill-opacity=".12" stroke="#ff8fa3" stroke-opacity=".4"/>
+  <g transform="translate(0 6)"><path d="M32 15L48 23L32 31L16 23Z" fill="#ff8fa3"/><path d="M16 31L32 39L48 31" fill="none" stroke="#ff8fa3" stroke-opacity=".6" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M16 39L32 47L48 39" fill="none" stroke="#ff8fa3" stroke-opacity=".3" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/></g>
+  <path d="M52 22V9M46.5 14.5L52 9L57.5 14.5" fill="none" stroke="#eaf4ff" stroke-opacity=".85" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g><text x="1140" y="34" font-size="10" fill="#9bb3d0" class="mono" text-anchor="end" letter-spacing="1.4">VIEW REPOSITORY</text></svg>
