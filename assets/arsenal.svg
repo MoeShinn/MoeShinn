@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="156" viewBox="0 0 1200 156" role="img" aria-labelledby="title"><title id="title">Toolbox — Python, TypeScript, JavaScript, HTML/CSS, Minecraft, Ezy Tuber</title><style>
+  text{font-family:Inter,'Segoe UI',Arial,sans-serif} .mono{font-family:'Cascadia Code','SFMono-Regular',Consolas,monospace}
+  .pulse{animation:pulse 3s ease-in-out infinite} .cursor{animation:blink 1.2s steps(1) infinite}
+  .float{animation:float 9s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}} @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+  @media(prefers-reduced-motion:reduce){*{animation:none!important} .typing{clip-path:none!important}}
+</style><defs></defs><rect x="0.5" y="0.5" width="189" height="155" rx="16" fill="#0c1a2e" stroke="#27405f"/>
+      <rect x="19" y="18" width="42" height="37" rx="10" fill="#ffd28a" fill-opacity=".1"/>
+      <text x="40" y="43" font-size="19" fill="#ffd28a" class="mono" text-anchor="middle" font-weight="700">Py</text>
+      <text x="19" y="92" font-size="21" fill="#eaf4ff" font-weight="600">Python</text>
+      <text x="19" y="121" font-size="10" fill="#9bb3d0" class="mono" letter-spacing="1">TOOLS &amp; AUTOMATION</text>
+      <path d="M19 144H171" stroke="#ffd28a" stroke-opacity=".18"/><rect x="202.5" y="0.5" width="189" height="155" rx="16" fill="#0c1a2e" stroke="#27405f"/>
+      <rect x="221" y="18" width="42" height="37" rx="10" fill="#00F5D4" fill-opacity=".1"/>
+      <text x="242" y="43" font-size="19" fill="#00F5D4" class="mono" text-anchor="middle" font-weight="700">TS</text>
+      <text x="221" y="92" font-size="21" fill="#eaf4ff" font-weight="600">TypeScript</text>
+      <text x="221" y="121" font-size="10" fill="#9bb3d0" class="mono" letter-spacing="1">TYPED APPS</text>
+      <path d="M221 144H373" stroke="#00F5D4" stroke-opacity=".18"/><rect x="404.5" y="0.5" width="189" height="155" rx="16" fill="#0c1a2e" stroke="#27405f"/>
+      <rect x="423" y="18" width="42" height="37" rx="10" fill="#ffd28a" fill-opacity=".1"/>
+      <text x="444" y="43" font-size="19" fill="#ffd28a" class="mono" text-anchor="middle" font-weight="700">JS</text>
+      <text x="423" y="92" font-size="21" fill="#eaf4ff" font-weight="600">JavaScript</text>
+      <text x="423" y="121" font-size="10" fill="#9bb3d0" class="mono" letter-spacing="1">WEB &amp; DESKTOP</text>
+      <path d="M423 144H575" stroke="#ffd28a" stroke-opacity=".18"/><rect x="606.5" y="0.5" width="189" height="155" rx="16" fill="#0c1a2e" stroke="#27405f"/>
+      <rect x="625" y="18" width="42" height="37" rx="10" fill="#ff8fa3" fill-opacity=".1"/>
+      <text x="646" y="43" font-size="19" fill="#ff8fa3" class="mono" text-anchor="middle" font-weight="700">&lt;/&gt;</text>
+      <text x="625" y="92" font-size="21" fill="#eaf4ff" font-weight="600">HTML / CSS</text>
+      <text x="625" y="121" font-size="10" fill="#9bb3d0" class="mono" letter-spacing="1">INTERFACES</text>
+      <path d="M625 144H777" stroke="#ff8fa3" stroke-opacity=".18"/><rect x="808.5" y="0.5" width="189" height="155" rx="16" fill="#0c1a2e" stroke="#27405f"/>
+      <rect x="827" y="18" width="42" height="37" rx="10" fill="#00F5D4" fill-opacity=".1"/>
+      <text x="848" y="43" font-size="19" fill="#00F5D4" class="mono" text-anchor="middle" font-weight="700">MC</text>
+      <text x="827" y="92" font-size="21" fill="#eaf4ff" font-weight="600">Minecraft</text>
+      <text x="827" y="121" font-size="10" fill="#9bb3d0" class="mono" letter-spacing="1">SERVERS &amp; PLUGINS</text>
+      <path d="M827 144H979" stroke="#00F5D4" stroke-opacity=".18"/><rect x="1010.5" y="0.5" width="189" height="155" rx="16" fill="#0c1a2e" stroke="#27405f"/>
+      <rect x="1029" y="18" width="42" height="37" rx="10" fill="#63B3ED" fill-opacity=".1"/>
+      <text x="1050" y="43" font-size="19" fill="#63B3ED" class="mono" text-anchor="middle" font-weight="700">Ez</text>
+      <text x="1029" y="92" font-size="21" fill="#eaf4ff" font-weight="600">Ezy Tuber</text>
+      <text x="1029" y="121" font-size="10" fill="#9bb3d0" class="mono" letter-spacing="1">PNGTUBER</text>
+      <path d="M1029 144H1181" stroke="#63B3ED" stroke-opacity=".18"/></svg>
