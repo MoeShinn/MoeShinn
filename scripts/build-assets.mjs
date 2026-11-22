@@ -50,7 +50,7 @@ for (const mobile of [false, true]) {
     <linearGradient id="accent"><stop stop-color="${C.cyan}"/><stop offset=".5" stop-color="${C.violet}"/><stop offset="1" stop-color="${C.rose}"/></linearGradient>
     <linearGradient id="sky" x2="1" y2="1"><stop stop-color="#0a1626"/><stop offset=".55" stop-color="#0f2c4a"/><stop offset="1" stop-color="#0b3b40"/></linearGradient>
     <radialGradient id="glow"><stop stop-color="${C.cyan}" stop-opacity=".28"/><stop offset="1" stop-color="${C.cyan}" stop-opacity="0"/></radialGradient>
-    <clipPath id="portrait"><circle cx="${mobile ? 466 : 800}" cy="${mobile ? 126 : 212}" r="${mobile ? 67 : 105}"/></clipPath>`;
+    <clipPath id="portrait"><circle cx="${mobile ? 452 : 800}" cy="${mobile ? 130 : 202}" r="${mobile ? 80 : 122}"/></clipPath>`;
   const inset = mobile ? 34 : 62;
   let s = `<g clip-path="url(#canvas)"><rect width="${w}" height="${h}" fill="${C.bg}"/>
     ${bg ? `<image href="${mobile ? bgMobile : bg}" x="0" y="0" width="${w}" height="${h}" preserveAspectRatio="xMidYMid slice"/>` : `<rect width="${w}" height="${h}" fill="url(#sky)"/><circle cx="${w*.8}" cy="${h*.35}" r="${h*.7}" fill="url(#glow)"/><path d="M0 ${h*.86}Q${w*.25} ${h*.7} ${w*.5} ${h*.84}T${w} ${h*.8}V${h}H0Z" fill="${C.violet}" fill-opacity=".07"/>`}
@@ -66,14 +66,14 @@ for (const mobile of [false, true]) {
     <path d="M${inset} ${mobile?342:318}H${mobile?530:620}" stroke="url(#accent)" stroke-opacity=".65"/>
     ${text(inset,mobile?386:354,'Stream. Code. Minecraft.',mobile?26:23,C.ink,'font-weight="500"')}
     ${text(inset,mobile?423:389,'Một cái tool nhỏ mới đang được mày mò_',mobile?17:15,C.muted,'class="mono"')}`;
-  const cx = mobile?466:800, cy = mobile?126:212, r = mobile?67:105;
+  const cx = mobile?452:800, cy = mobile?130:202, r = mobile?80:122;
   s += `<g class="float"><circle cx="${cx}" cy="${cy}" r="${r+17}" fill="${C.bg}" fill-opacity=".24" stroke="${C.violet}" stroke-opacity=".3"/>
     <circle cx="${cx}" cy="${cy}" r="${r+8}" fill="none" stroke="${C.cyan}" stroke-opacity=".6" stroke-dasharray="3 12"/>
     ${avatar ? `<image href="${avatar}" x="${cx-r}" y="${cy-r}" width="${r*2}" height="${r*2}" clip-path="url(#portrait)" preserveAspectRatio="xMidYMid slice"/>` : `<circle cx="${cx}" cy="${cy}" r="${r}" fill="url(#accent)" fill-opacity=".22"/>${text(cx,cy+r*.36,'M',r*1.1,C.ink,'text-anchor="middle" font-weight="800"')}`}
     <circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${C.ink}" stroke-opacity=".2"/></g>`;
   if (!mobile) {
-    s += `${text(cx,361,'Xin chào',20,C.ink,'text-anchor="middle" letter-spacing="3"')}
-      ${text(cx,387,'CHÚC BẠN MỘT NGÀY CHILL',10,C.muted,'class="mono" text-anchor="middle" letter-spacing="1.4"')}`;
+    s += `${text(cx,370,'Xin chào',20,C.ink,'text-anchor="middle" letter-spacing="3"')}
+      ${text(cx,395,'CHÚC BẠN MỘT NGÀY CHILL',10,C.muted,'class="mono" text-anchor="middle" letter-spacing="1.4"')}`;
   } else {
     s += text(inset,486,'Xin chào · chúc bạn một ngày chill',13,C.muted,'class="mono"');
   }
